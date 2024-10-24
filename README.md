@@ -1,70 +1,228 @@
-# Getting Started with Create React App
+<div id="top"></div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/PJaybee-10/recruitment-developer">
+    <img src="https://lh3.googleusercontent.com/d/1WVrwo9yY-SQ7rh7SpYUOvykp1hWVyTNo" alt="Logo" width="400px">
+  </a>
 
-## Available Scripts
+  <h3 align="center">Peworld Hire</h3>
 
-In the project directory, you can run:
+  <p align="center">
+    Find talented & best developers in various fields.
+    <br />
+    <a href="#table-of-contents"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://bit.ly/peworld-hire">View Demo</a>
+    ·
+    <a href="https://github.com/altrawan/peworld-app/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/altrawan/peworld-app/issues">Request Feature</a>
+  </p>
+</div>
 
-### `npm start`
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#setup-env-example">Setup .env example</a></li>
+      </ul>
+    </li>
+    <li><a href="#screenshoots">Screenshots</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#related-project">Related Project</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#license">License</a></li>
+  </ol>
+</details>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- ABOUT THE PROJECT -->
+## About The Project
+**Peworld Hire** A straightforward job website called Recruitment Developer can help businesses find skilled programmers by matching them with the talents they require. Additionally, it allows programmers to display their portfolios in hopes of being hired by a company.
 
-### `npm test`
+### Built With
+This app was built with some technologies below:
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS?retiredLocale=id)
+* [Javascript](https://www.javascript.com/)
+* [Next Js](https://nextjs.org/)
+* [Axios](https://axios-http.com/)
+* [Redux](https://redux.js.org/)
+* [Bootstrap](https://getbootstrap.com/)
+* [Socket.io](https://socket.io/)
+* [Moment](https://momentjs.com/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### `npm run build`
+<!-- GETTING STARTED -->
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Before going to the installation stage there are some software that must be installed first.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* [NodeJs](https://nodejs.org/en/download/)
 
-### `npm run eject`
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you want to run this project locally, I recommend you to configure the [back-end](https://github.com/PJaybee-10/backend-api-hire) first before configuring this repo front-end. But all the necessary details for the assessment is located on both github repository and i already put this to vercel for you to look around. 
+- Clone the repo
+```
+git clone https://github.com/PJaybee-10/recruitment-developer
+```
+- Install Module
+```
+npm install
+```
+- <a href="#setup-env">Setup .env</a>
+- Type ` npm run dev` To Start Development
+- Type ` npm run start` To Start Production
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Setup .env example
+Create .env file in your root project folder.
+```
+NEXT_PUBLIC_APP_NAME = [YOUR_APP_NAME]
+NEXT_PUBLIC_NODE_ENV = [YOUR_CURRENT_ENVIRONMENT]
+NEXT_PUBLIC_API_URL = [YOUR_API_URL]
+```
 
-## Learn More
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Screenshoots
+<p align="center" display=flex>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<table>
+ <tr>
+    <td><image src="https://lh3.googleusercontent.com/d/1tzS8NBQtMGku6cXficIW5wQClduek1KQ" alt="Landing Page" width=100%></td>
+    <td><image src="https://lh3.googleusercontent.com/d/1vALeDMD_fNkAKQqqqRuFDHt11nGbSBh6" alt="Landing Page After Login" width=100%/></td>
+  </tr>
+   <tr>
+    <td>Landing Page</td>
+    <td>Landing Page After Login</td>
+  </tr>
+  
+  <tr>
+    <td><image src="https://lh3.googleusercontent.com/d/1oag1KBgj-fQAzsmwjvNPCOELoqAeXbEO" alt="Login Page" width=100%></td>
+    <td><image src="https://lh3.googleusercontent.com/d/17yeQqw408hiDDOyFZq17Fw3ovnswsQ7D" alt="Forgot Password Page" width=100%/></td>
+  </tr>
+   <tr>
+    <td>Login Page</td>
+    <td>Forgot Password Page</td>
+  </tr>
+  
+  <tr>
+    <td><image src="https://lh3.googleusercontent.com/d/1nshaEdAJsPJUPJ4uR1bmM_275Rrf6zlb" alt="Register Worker Page" width=100%></td>
+    <td><image src="https://lh3.googleusercontent.com/d/1ovMJdHmSF2b1MfGMEbXM22YbyJhF1305" alt="Register Recruiter Page" width=100%/></td>
+  </tr>
+   <tr>
+    <td>Register Worker Page</td>
+    <td>Register Recruiter Page</td>
+  </tr>
+  
+  <tr>
+    <td><image src="https://lh3.googleusercontent.com/d/1Rv3GPrjZCZkgf7jJkXTUo7Rq21qT0RWF" alt="Reset Password Page" width=100%/></td>
+    <td><image src="https://lh3.googleusercontent.com/d/1faiv7WfqKLpWx4fT67ITpTqhg0AGIvma" alt="Send Message" width=100%></td>
+  </tr>
+  <tr>
+    <td>Reset Password Page</td>
+    <td>Send Message</td>
+  </tr>
+  
+  <tr>
+    <td><image src="https://lh3.googleusercontent.com/d/1xa6v3_KTTxLq9yENUX5FQ0dDfexhLHhT" alt="List Worker Page" width=100%/></td>
+    <td><image src="https://lh3.googleusercontent.com/d/1uaE7J2Chz_sd0C546eiUzeiqfZk9KV35" alt="List Recruiter Page" width=100%></td>
+  </tr>
+  <tr>
+    <td>List Worker Page</td>
+    <td>List Recruiter Page</td>
+  </tr>
+  
+  <tr>
+    <td><image src="https://lh3.googleusercontent.com/d/1rAB9MAE1YXduQR54z2GV4-LIUjULrlHt" alt="Profile Worker - Portofolio Page" width=100%/></td>
+    <td><image src="https://lh3.googleusercontent.com/d/1kK97he_sI5VXQu386PCdWMa5mIOMrJof" alt="Profile Worker - Experience Page" width=100%></td>
+  </tr>
+  <tr>
+    <td>Profile Worker - Portofolio Page</td>
+    <td>Profile Worker - Experience Page</td>
+  </tr>
+  
+  <tr>
+    <td><image src="https://lh3.googleusercontent.com/d/10QlGAEHAQKd7uUjGX7PdEgahAIWdDgEx" alt="Detail Worker Page" width=100%/></td>
+    <td><image src="https://lh3.googleusercontent.com/d/1Lg2xtIj-Bw66hfeiw43UkXWWE-Yl8Suf" alt="Edit Profile Worker Page" width=100%></td>
+  </tr>
+  <tr>
+    <td>Detail Worker Page</td>
+    <td>Edit Profile Worker Page</td>
+  </tr>
+  
+  <tr>
+    <td><image src="https://lh3.googleusercontent.com/d/1JC4ey8k86NJ7y6yigBRWV85ca5rZguBh" alt="Profile Recruiter Page" width=100%/></td>
+    <td><image src="https://lh3.googleusercontent.com/d/1_TUFkzjW2SdQOuUdzPFi1yfNus2fdgqX" alt="Detail Recruiter Page" width=100%></td>
+  </tr>
+  <tr>
+    <td>Profile Recruiter Page</td>
+    <td>Detail Recruiter Page</td>
+  </tr>
+  
+  <tr>
+    <td><image src="https://lh3.googleusercontent.com/d/11rAYOaeWBScl3H8V7zIfIHMwtyWcwBhr" alt="Edit Profile Recruiter Page" width=100%/></td>
+    <td><image src="https://lh3.googleusercontent.com/d/1f_AUAzw2cVNNIp7EZ27snqve0ze1udI7" alt="Hire Page" width=100%></td>
+  </tr>
+  <tr>
+    <td>Edit Profile Recruiter Page</td>
+    <td>Hire Page</td>
+  </tr>
 
-### Code Splitting
+</table>
+      
+</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Analyzing the Bundle Size
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-### Making a Progressive Web App
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Advanced Configuration
+## Related Project
+:rocket: [`Backend Peworld Hire`](https://github.com/PJaybee-10/backend-api-hire)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+:rocket: [`Frontend Peworld Hire`](https://github.com/PJaybee-10/recruitment-developer)
 
-### Deployment
+:rocket: [`Web Service`](https://peworld-hire.herokuapp.com/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+:rocket: [`Demo Peworld Hire`](https://bit.ly/peworld-hire)
 
-### `npm run build` fails to minify
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## License
+Distributed under the [MIT](/LICENSE) License.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
